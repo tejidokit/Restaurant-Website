@@ -1,3 +1,35 @@
-h1 {
-    color: chartreuse;
-}
+
+/* ### Common Global Styles ### */
+    body {
+        margin: 0px;
+    }
+
+    /* #### Nav Styling #### */
+
+    .nav_container {
+        height: 190px;
+        background-color: #11122b;
+        color: #cbcbcb;
+
+        /* Flexbox Container */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        /* Container Items */
+        padding: 60px 100px 60px 100px;
+        margin: 0px;
+    }
+
+    .left-column {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon {
+        margin-right: 15px;
+    }
+
+    .icon i {
+        font-size: 2em; 
+    }
