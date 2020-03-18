@@ -8,7 +8,7 @@
 
     /* #### Nav Styling #### */
 
-    .nav_container {
+    .nav-container {
         height: 190px;
         background-color: #191919;
         color: #cbcbcb;
@@ -23,41 +23,42 @@
         margin: 0px;
     }
 
-    .left-column {
+    .nav-container > .left-column {
         display: flex;
         align-items: center;
     }
 
-    .icon {
+    .nav-container > .left-column > .icon {
         margin-right: 15px;
     }
 
-    .icon i {
+    .nav-container > .left-column > .icon i {
         font-size: 2em; 
     }
     
      /* CSS GRID */
     /* find the contact-hours-wrapper that is inside the left colun */
-    .left-column > .contact-hours-wrapper {
+    .nav-container > .left-column > .left-column > .contact-hours-wrapper {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
     
-    .contact-hours-wrapper > .hours {
+    .nav-container > .left-column > .contact-hours-wrapper > .hours {
         font-family: 'Ubuntu Condensed', sans-serif;
     }
 
-    .nav-link a {
+        
+    .links-container > .nav-link a {
         font-family: 'Ubuntu Condensed', sans-serif;
         color: white;
     }
 
-    .address-wrapper {
+    .nav-container > .right-column > .address-container {
         font-family: 'Ubuntu Condensed', sans-serif;
     }
 
-    .banner-image img {
+    .nav-container > .center-column > .banner-image img {
         width: 216px;
         height: 100%;
     }
