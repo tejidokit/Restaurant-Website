@@ -2,13 +2,15 @@
 /* ### Common Global Styles ### */
     body {
         margin: 0px;
+        font-family: 'Roboto', sans-serif;
+
     }
 
     /* #### Nav Styling #### */
 
     .nav_container {
         height: 190px;
-        background-color: #11122b;
+        background-color: #191919;
         color: #cbcbcb;
 
         /* Flexbox Container */
@@ -40,4 +42,22 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
+    }
+    
+    .contact-hours-wrapper > .hours {
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+
+    .nav-link a {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: white;
+    }
+
+    .address-wrapper {
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+
+    .banner-image img {
+        width: 216px;
+        height: 100%;
     }
