@@ -1,0 +1,11 @@
+/*##### HERO SECTION SYTLES #####*/
+
+.hero-section {
+    background-image: url(../assets/images/ramen-hero-bg.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
