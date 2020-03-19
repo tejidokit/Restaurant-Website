@@ -1,11 +1,4 @@
 
-/* ### Common Global Styles ### */
-    body {
-        margin: 0px;
-        font-family: 'Roboto', sans-serif;
-
-    }
-
     /* #### Nav Styling #### */
 
     .nav-container {
@@ -47,6 +40,8 @@
     
     .nav-container > .left-column > .contact-hours-wrapper > .hours {
         font-family: 'Ubuntu Condensed', sans-serif;
+        color: #885588;
+        font-size: 0.8em;
     }
 
         
@@ -132,3 +127,4 @@
     .nav-container > .right-column > .contact-icon a:hover {
         color: #cea135;
     }
+
