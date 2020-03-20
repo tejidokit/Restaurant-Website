@@ -9,4 +9,15 @@
         font-family: 'Roboto Slab', serif;
     }
 
+
+/* ### Common Global Styles ### */
+
+.footer {
+    background-color: #191919;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
