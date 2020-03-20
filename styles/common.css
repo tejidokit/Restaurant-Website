@@ -19,5 +19,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column; /* ### allows items to get stacked on top of each other ### */
+    height: 400px;
+    margin-top: -2px; /* removes top white margin from google map */
+    padding-top: 10px;
+}
+
+.footer > .logo img {
+    width: 180px;
+    height: 100%;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+}
+
+.footer > .footer-phone-hours > .hours{
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer > .links-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .social-media-icons {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+  
+}
+
+.footer > .social-media-icons a:hover {
+    color: #cea135;
+}
+
+.footer > .copyright-container {
+    margin-bottom: 42px;
+    font-size: 0.7em; /* 70% of its normal size */
+    color: #858585;
 }
