@@ -40,6 +40,8 @@
     font-family: "Ubuntu Condensed", sans-serif;
 }
 
+
+
 .features-section > .columns-wrapper {
     width: 1000px;
     display: flex;
@@ -50,9 +52,28 @@
     padding: 20px;
     margin: 42px;
     text-align: center;
-    border-bottom: 5px solid transparent;
+    border-bottom: 5px solid transparent; /* makes the card stay in place on hover animation */
     border-radius: 10px;
     transition: 1s;
-    
+}
 
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #11122b;
+}
+
+
+.features-section > .columns-wrapper > .column > .icon i {
+    font-size: 2em;
+}
+
+.features-section > .columns-wrapper > .column > p {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+
+.features-section > .columns-wrapper > .column > .title:hover {
+    letter-spacing: 1px;
 }
